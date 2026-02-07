@@ -5,7 +5,7 @@ from scli_calculator import calculate_scli
 from difficulty_level_classifier import classify_difficulty
 
 expected_text = "The cat is on the mat"
-audio_path = "input.wav"
+audio_path = r"C:\Users\praga\OneDrive\Desktop\PLANS\sem8\FYP\inpyt.wav"
 
 start_time = time.time()
 spoken_text = speech_to_text(audio_path)
